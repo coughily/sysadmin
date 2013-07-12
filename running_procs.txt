@@ -1,3 +1,41 @@
+# Process Tree (pstree output)
+#
+# init---auditd---{auditd}
+#      +-crond
+#      +-master---pickup
+#      ¦        +-qmgr
+#      +-6*[mingetty]
+#      +-rhsmcertd
+#      +-rsyslogd---3*[{rsyslogd}]
+#      +-sshd---sshd---sshd---bash---pstree
+#      +-udevd---2*[udevd]
+
+# chkconfig output
+#
+
+auditd          0:off   1:off   2:on    3:on    4:on    5:on    6:off
+blk-availability        0:off   1:on    2:on    3:on    4:on    5:on    6:off
+crond           0:off   1:off   2:on    3:on    4:on    5:on    6:off
+ip6tables       0:off   1:off   2:on    3:on    4:on    5:on    6:off
+iptables        0:off   1:off   2:on    3:on    4:on    5:on    6:off
+lvm2-monitor    0:off   1:on    2:on    3:on    4:on    5:on    6:off
+netconsole      0:off   1:off   2:off   3:off   4:off   5:off   6:off
+netfs           0:off   1:off   2:off   3:on    4:on    5:on    6:off
+network         0:off   1:off   2:on    3:on    4:on    5:on    6:off
+postfix         0:off   1:off   2:on    3:on    4:on    5:on    6:off
+rdisc           0:off   1:off   2:off   3:off   4:off   5:off   6:off
+restorecond     0:off   1:off   2:off   3:off   4:off   5:off   6:off
+rhnsd           0:off   1:off   2:on    3:on    4:on    5:on    6:off
+rhsmcertd       0:off   1:off   2:off   3:on    4:on    5:on    6:off
+rsyslog         0:off   1:off   2:on    3:on    4:on    5:on    6:off
+saslauthd       0:off   1:off   2:off   3:off   4:off   5:off   6:off
+sshd            0:off   1:off   2:on    3:on    4:on    5:on    6:off
+udev-post       0:off   1:on    2:on    3:on    4:on    5:on    6:off
+
+
+# ps alx
+#
+
 F   UID   PID  PPID PRI  NI    VSZ   RSS WCHAN  STAT TTY        TIME COMMAND
 4     0     1     0  20   0  19228  1528 poll_s Ss   ?          0:02 /sbin/init
 1     0     2     0  20   0      0     0 kthrea S    ?          0:00 [kthreadd]
