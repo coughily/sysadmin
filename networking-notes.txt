@@ -1,0 +1,21 @@
+Getting the system on to the network required modifying the following configuration files, due to the lack of the NetworkManager utility on our system...
+(Presumably because of the "minimal" install)
+
+#/etc/sysconfig/network-scripts/ifcfg-eth0
+NM_CONTROLLED=no
+IPADDR=(set to the ip)
+NETMASK=255.255.255.0
+
+#/etc/sysconfig/network
+HOSTNAME=(the hostname.domain)
+GATEWAY=(the gateway)
+
+#/etc/hosts
+127.0.0.1 localhost localhost.localdomain (etc)
+
+#/etc/resolv.conf
+nameserver (nameserver 1)
+nameserver (nameserver 2)
+nameserver (nameserver 3)
+
+#TO DO: add route configuration
