@@ -19,7 +19,7 @@ init(1)─┬─auditd(949)───{auditd}(950)
                      └─udevd(2044)
 
 # chkconfig output
-#
+# Note: This list essentially reflects the scripts that exist in /etc/init.d
 
 auditd          0:off   1:off   2:on    3:on    4:on    5:on    6:off
 blk-availability        0:off   1:on    2:on    3:on    4:on    5:on    6:off
