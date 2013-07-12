@@ -1,14 +1,22 @@
-# Process Tree (pstree output)
+# Process Tree (pstree -p output)
 #
-# init---auditd---{auditd}
-#      +-crond
-#      +-master---pickup
-#      �        +-qmgr
-#      +-6*[mingetty]
-#      +-rhsmcertd
-#      +-rsyslogd---3*[{rsyslogd}]
-#      +-sshd---sshd---sshd---bash---pstree
-#      +-udevd---2*[udevd]
+init(1)─┬─auditd(949)───{auditd}(950)
+        ├─crond(1112)
+        ├─master(1102)─┬─pickup(2668)
+        │              └─qmgr(1111)
+        ├─mingetty(1141)
+        ├─mingetty(1143)
+        ├─mingetty(1145)
+        ├─mingetty(1147)
+        ├─mingetty(1149)
+        ├─mingetty(2117)
+        ├─rhsmcertd(1125)
+        ├─rsyslogd(965)─┬─{rsyslogd}(966)
+        │               ├─{rsyslogd}(967)
+        │               └─{rsyslogd}(968)
+        ├─sshd(1024)───sshd(2643)───sshd(2647)───bash(2648)───pstree(2671)
+        └─udevd(423)─┬─udevd(2043)
+                     └─udevd(2044)
 
 # chkconfig output
 #
