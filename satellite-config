@@ -1,0 +1,44 @@
+In order to register the system with the UO RHN Satellite, I followed the steps outlined here:
+https://it.uoregon.edu/systems/doc/rhn/start
+
+Basically it boils down to:
+1. finding the Finance/Admin activation key (since we are already setup in this sytem with registered boxes)
+2. downloading the bootstrap script and modifying it to use that activation key
+
+This was a much better way to go when compared with following the "client configuration" instructions available
+from our RedHat Customer Portal, which do not assume a nifty script is available to do the heavy lifting.
+
+
+I downloaded the bootstrap.sh script, and modified it to include the proper activation key.
+
+In messing with this, I was reminded that I still hadn't configured our system to allow davidr and mcoughli to use sudo.
+In order to run the script then, I became root
+$ su
+and then executed the script
+$ bash boostrap.sh
+
+The script worked its magic.
+Note that I did configure it *not* to update immediately upon successfully registering with the Satellite, it does appear to have installed/updated:
+rhel-x86_64-server-6/primary
+I assume this is a standard dependency thing, but I have not looked it up yet.
+
+I then attempted to remedy the "sudoers" issue, so that davidr and mcoughli would be able to execute yum check-update and begin to plan the package update process
+$ su
+$ visudo
+Added the following lines to the file:
+davidr ALL=(ALL) ALL
+mcoughli ALL=(ALL) ALL
+
+Saved.
+
+$ exit (to log out of root)
+$ sudo yum check-update
+
+The update check worked.  Interestingly enough it shows more available updates than does the customer portal (rhn.uoregon.edu)
+Need to check that out...
+
+The available_updates.txt shows the output of the command
+
+
+
+

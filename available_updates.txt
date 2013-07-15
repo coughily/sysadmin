@@ -1,0 +1,75 @@
+.x86_64                                                                        8.4-19.el6_4.2                                                               rhel-x86_64-server-6
+
+coreutils-libs.x86_64                                                                   8.4-19.el6_4.2                                                               rhel-x86_64-server-6
+
+curl.x86_64                                                                             7.19.7-37.el6_4                                                              rhel-x86_64-server-6
+
+dbus-glib.x86_64                                                                        0.86-6.el6_4                                                                 rhel-x86_64-server-6
+
+dmidecode.x86_64                                                                        1:2.11-2.el6_1                                                               rhel-x86_64-server-6
+
+e2fsprogs.x86_64                                                                        1.41.12-14.el6_4.2                                                           rhel-x86_64-server-6
+
+e2fsprogs-libs.x86_64                                                                   1.41.12-14.el6_4.2                                                           rhel-x86_64-server-6
+
+glibc.x86_64                                                                            2.12-1.107.el6_4.2                                                           rhel-x86_64-server-6
+
+glibc-common.x86_64                                                                     2.12-1.107.el6_4.2                                                           rhel-x86_64-server-6
+
+gzip.x86_64                                                                             1.3.12-19.el6_4                                                              rhel-x86_64-server-6
+
+initscripts.x86_64                                                                      9.03.38-1.el6_4.1                                                            rhel-x86_64-server-6
+
+iputils.x86_64                                                                          20071127-17.el6_4                                                            rhel-x86_64-server-6
+
+kernel.x86_64                                                                           2.6.32-358.11.1.el6                                                          rhel-x86_64-server-6
+
+kernel-firmware.noarch                                                                  2.6.32-358.11.1.el6                                                          rhel-x86_64-server-6
+
+krb5-libs.x86_64                                                                        1.10.3-10.el6_4.3                                                            rhel-x86_64-server-6
+
+libblkid.x86_64                                                                         2.17.2-12.9.el6_4.3                                                          rhel-x86_64-server-6
+
+libcom_err.x86_64                                                                       1.41.12-14.el6_4.2                                                           rhel-x86_64-server-6
+
+libcurl.x86_64                                                                          7.19.7-37.el6_4                                                              rhel-x86_64-server-6
+
+libnl.x86_64                                                                            1.1.4-1.el6_4                                                                rhel-x86_64-server-6
+
+libselinux.x86_64                                                                       2.0.94-5.3.el6_4.1                                                           rhel-x86_64-server-6
+
+libselinux-utils.x86_64                                                                 2.0.94-5.3.el6_4.1                                                           rhel-x86_64-server-6
+
+libss.x86_64                                                                            1.41.12-14.el6_4.2                                                           rhel-x86_64-server-6
+
+libuuid.x86_64                                                                          2.17.2-12.9.el6_4.3                                                          rhel-x86_64-server-6
+
+libxml2.x86_64                                                                          2.7.6-12.el6_4.1                                                             rhel-x86_64-server-6
+
+libxml2-python.x86_64                                                                   2.7.6-12.el6_4.1                                                             rhel-x86_64-server-6
+
+module-init-tools.x86_64                                                                3.9-21.el6_4                                                                 rhel-x86_64-server-6
+
+mysql-libs.x86_64                                                                       5.1.69-1.el6_4                                                               rhel-x86_64-server-6
+
+openldap.x86_64                                                                         2.4.23-32.el6_4.1                                                            rhel-x86_64-server-6
+
+openssl.x86_64                                                                          1.0.0-27.el6_4.2                                                             rhel-x86_64-server-6
+
+python.x86_64                                                                           2.6.6-37.el6_4                                                               rhel-x86_64-server-6
+
+python-dmidecode.x86_64                                                                 3.10.13-3.el6_4                                                              rhel-x86_64-server-6
+
+python-libs.x86_64                                                                      2.6.6-37.el6_4                                                               rhel-x86_64-server-6
+
+selinux-policy.noarch                                                                   3.7.19-195.el6_4.12                                                          rhel-x86_64-server-6
+
+selinux-policy-targeted.noarch                                                          3.7.19-195.el6_4.12                                                          rhel-x86_64-server-6
+
+subscription-manager.x86_64                                                             1.1.23.1-1.el6_4                                                             rhel-x86_64-server-6
+
+tzdata.noarch                                                                           2013c-2.el6                                                                  rhel-x86_64-server-6
+
+upstart.x86_64                                                                          0.6.5-12.el6_4.1                                                             rhel-x86_64-server-6
+
+util-linux-ng.x86_64                                                                    2.17.2-12.9.el6_4.3                                                          rhel-x86_64-server-6
