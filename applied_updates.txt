@@ -1,0 +1,341 @@
+Loaded plugins: product-id, rhnplugin, subscription-manager
+This system is not registered to Red Hat Subscription Management. You can use subscription-manager to register.
+This system is receiving updates from RHN Classic or RHN Satellite.
+Setting up Update Process
+Resolving Dependencies
+--> Running transaction check
+---> Package coreutils.x86_64 0:8.4-19.el6 will be updated
+---> Package coreutils.x86_64 0:8.4-19.el6_4.2 will be an update
+---> Package coreutils-libs.x86_64 0:8.4-19.el6 will be updated
+---> Package coreutils-libs.x86_64 0:8.4-19.el6_4.2 will be an update
+---> Package curl.x86_64 0:7.19.7-35.el6 will be updated
+---> Package curl.x86_64 0:7.19.7-37.el6_4 will be an update
+---> Package dbus-glib.x86_64 0:0.86-5.el6 will be updated
+---> Package dbus-glib.x86_64 0:0.86-6.el6_4 will be an update
+---> Package dmidecode.x86_64 1:2.11-2.el6 will be updated
+---> Package dmidecode.x86_64 1:2.11-2.el6_1 will be an update
+---> Package e2fsprogs.x86_64 0:1.41.12-14.el6 will be updated
+---> Package e2fsprogs.x86_64 0:1.41.12-14.el6_4.2 will be an update
+---> Package e2fsprogs-libs.x86_64 0:1.41.12-14.el6 will be updated
+---> Package e2fsprogs-libs.x86_64 0:1.41.12-14.el6_4.2 will be an update
+---> Package glibc.x86_64 0:2.12-1.107.el6 will be updated
+---> Package glibc.x86_64 0:2.12-1.107.el6_4.2 will be an update
+---> Package glibc-common.x86_64 0:2.12-1.107.el6 will be updated
+---> Package glibc-common.x86_64 0:2.12-1.107.el6_4.2 will be an update
+---> Package gzip.x86_64 0:1.3.12-18.el6 will be updated
+---> Package gzip.x86_64 0:1.3.12-19.el6_4 will be an update
+---> Package initscripts.x86_64 0:9.03.38-1.el6 will be updated
+---> Package initscripts.x86_64 0:9.03.38-1.el6_4.1 will be an update
+---> Package iputils.x86_64 0:20071127-16.el6 will be updated
+---> Package iputils.x86_64 0:20071127-17.el6_4 will be an update
+---> Package kernel.x86_64 0:2.6.32-358.11.1.el6 will be installed
+---> Package kernel-firmware.noarch 0:2.6.32-358.el6 will be updated
+---> Package kernel-firmware.noarch 0:2.6.32-358.11.1.el6 will be an update
+---> Package krb5-libs.x86_64 0:1.10.3-10.el6 will be updated
+---> Package krb5-libs.x86_64 0:1.10.3-10.el6_4.4 will be an update
+---> Package libblkid.x86_64 0:2.17.2-12.9.el6 will be updated
+---> Package libblkid.x86_64 0:2.17.2-12.9.el6_4.3 will be an update
+---> Package libcom_err.x86_64 0:1.41.12-14.el6 will be updated
+---> Package libcom_err.x86_64 0:1.41.12-14.el6_4.2 will be an update
+---> Package libcurl.x86_64 0:7.19.7-35.el6 will be updated
+---> Package libcurl.x86_64 0:7.19.7-37.el6_4 will be an update
+---> Package libnl.x86_64 0:1.1-14.el6 will be updated
+---> Package libnl.x86_64 0:1.1.4-1.el6_4 will be an update
+---> Package libss.x86_64 0:1.41.12-14.el6 will be updated
+---> Package libss.x86_64 0:1.41.12-14.el6_4.2 will be an update
+---> Package libuuid.x86_64 0:2.17.2-12.9.el6 will be updated
+---> Package libuuid.x86_64 0:2.17.2-12.9.el6_4.3 will be an update
+---> Package libxml2.x86_64 0:2.7.6-8.el6_3.4 will be updated
+---> Package libxml2.x86_64 0:2.7.6-12.el6_4.1 will be an update
+---> Package libxml2-python.x86_64 0:2.7.6-8.el6_3.4 will be updated
+---> Package libxml2-python.x86_64 0:2.7.6-12.el6_4.1 will be an update
+---> Package module-init-tools.x86_64 0:3.9-21.el6 will be updated
+---> Package module-init-tools.x86_64 0:3.9-21.el6_4 will be an update
+---> Package mysql-libs.x86_64 0:5.1.66-2.el6_3 will be updated
+---> Package mysql-libs.x86_64 0:5.1.69-1.el6_4 will be an update
+---> Package openldap.x86_64 0:2.4.23-31.el6 will be updated
+---> Package openldap.x86_64 0:2.4.23-32.el6_4.1 will be an update
+---> Package openssl.x86_64 0:1.0.0-27.el6 will be updated
+---> Package openssl.x86_64 0:1.0.0-27.el6_4.2 will be an update
+---> Package python.x86_64 0:2.6.6-36.el6 will be updated
+---> Package python.x86_64 0:2.6.6-37.el6_4 will be an update
+---> Package python-dmidecode.x86_64 0:3.10.13-1.el6 will be updated
+---> Package python-dmidecode.x86_64 0:3.10.13-3.el6_4 will be an update
+---> Package python-libs.x86_64 0:2.6.6-36.el6 will be updated
+---> Package python-libs.x86_64 0:2.6.6-37.el6_4 will be an update
+---> Package selinux-policy.noarch 0:3.7.19-195.el6 will be updated
+---> Package selinux-policy.noarch 0:3.7.19-195.el6_4.12 will be an update
+---> Package selinux-policy-targeted.noarch 0:3.7.19-195.el6 will be updated
+---> Package selinux-policy-targeted.noarch 0:3.7.19-195.el6_4.12 will be an update
+---> Package subscription-manager.x86_64 0:1.1.23-1.el6 will be updated
+---> Package subscription-manager.x86_64 0:1.1.23.1-1.el6_4 will be an update
+---> Package tzdata.noarch 0:2012j-1.el6 will be updated
+---> Package tzdata.noarch 0:2013c-2.el6 will be an update
+---> Package upstart.x86_64 0:0.6.5-12.el6 will be updated
+---> Package upstart.x86_64 0:0.6.5-12.el6_4.1 will be an update
+---> Package util-linux-ng.x86_64 0:2.17.2-12.9.el6 will be updated
+---> Package util-linux-ng.x86_64 0:2.17.2-12.9.el6_4.3 will be an update
+--> Finished Dependency Resolution
+
+Dependencies Resolved
+
+===============================================================================================================
+ Package                         Arch           Version                     Repository                    Size
+===============================================================================================================
+Installing:
+ kernel                          x86_64         2.6.32-358.11.1.el6         rhel-x86_64-server-6          26 M
+Updating:
+ coreutils                       x86_64         8.4-19.el6_4.2              rhel-x86_64-server-6         3.0 M
+ coreutils-libs                  x86_64         8.4-19.el6_4.2              rhel-x86_64-server-6          47 k
+ curl                            x86_64         7.19.7-37.el6_4             rhel-x86_64-server-6         193 k
+ dbus-glib                       x86_64         0.86-6.el6_4                rhel-x86_64-server-6         170 k
+ dmidecode                       x86_64         1:2.11-2.el6_1              rhel-x86_64-server-6          71 k
+ e2fsprogs                       x86_64         1.41.12-14.el6_4.2          rhel-x86_64-server-6         552 k
+ e2fsprogs-libs                  x86_64         1.41.12-14.el6_4.2          rhel-x86_64-server-6         120 k
+ glibc                           x86_64         2.12-1.107.el6_4.2          rhel-x86_64-server-6         3.8 M
+ glibc-common                    x86_64         2.12-1.107.el6_4.2          rhel-x86_64-server-6          14 M
+ gzip                            x86_64         1.3.12-19.el6_4             rhel-x86_64-server-6         116 k
+ initscripts                     x86_64         9.03.38-1.el6_4.1           rhel-x86_64-server-6         937 k
+ iputils                         x86_64         20071127-17.el6_4           rhel-x86_64-server-6         120 k
+ kernel-firmware                 noarch         2.6.32-358.11.1.el6         rhel-x86_64-server-6          11 M
+ krb5-libs                       x86_64         1.10.3-10.el6_4.4           rhel-x86_64-server-6         760 k
+ libblkid                        x86_64         2.17.2-12.9.el6_4.3         rhel-x86_64-server-6         114 k
+ libcom_err                      x86_64         1.41.12-14.el6_4.2          rhel-x86_64-server-6          36 k
+ libcurl                         x86_64         7.19.7-37.el6_4             rhel-x86_64-server-6         165 k
+ libnl                           x86_64         1.1.4-1.el6_4               rhel-x86_64-server-6         121 k
+ libss                           x86_64         1.41.12-14.el6_4.2          rhel-x86_64-server-6          41 k
+ libuuid                         x86_64         2.17.2-12.9.el6_4.3         rhel-x86_64-server-6          67 k
+ libxml2                         x86_64         2.7.6-12.el6_4.1            rhel-x86_64-server-6         799 k
+ libxml2-python                  x86_64         2.7.6-12.el6_4.1            rhel-x86_64-server-6         321 k
+ module-init-tools               x86_64         3.9-21.el6_4                rhel-x86_64-server-6         463 k
+ mysql-libs                      x86_64         5.1.69-1.el6_4              rhel-x86_64-server-6         1.2 M
+ openldap                        x86_64         2.4.23-32.el6_4.1           rhel-x86_64-server-6         265 k
+ openssl                         x86_64         1.0.0-27.el6_4.2            rhel-x86_64-server-6         1.4 M
+ python                          x86_64         2.6.6-37.el6_4              rhel-x86_64-server-6         4.8 M
+ python-dmidecode                x86_64         3.10.13-3.el6_4             rhel-x86_64-server-6          80 k
+ python-libs                     x86_64         2.6.6-37.el6_4              rhel-x86_64-server-6         596 k
+ selinux-policy                  noarch         3.7.19-195.el6_4.12         rhel-x86_64-server-6         1.8 M
+ selinux-policy-targeted         noarch         3.7.19-195.el6_4.12         rhel-x86_64-server-6         2.8 M
+ subscription-manager            x86_64         1.1.23.1-1.el6_4            rhel-x86_64-server-6         516 k
+ tzdata                          noarch         2013c-2.el6                 rhel-x86_64-server-6         460 k
+ upstart                         x86_64         0.6.5-12.el6_4.1            rhel-x86_64-server-6         176 k
+ util-linux-ng                   x86_64         2.17.2-12.9.el6_4.3         rhel-x86_64-server-6         1.5 M
+
+Transaction Summary
+===============================================================================================================
+Install       1 Package(s)
+Upgrade      35 Package(s)
+
+Total download size: 79 M
+Is this ok [y/N]: y
+Downloading Packages:
+(1/36): coreutils-8.4-19.el6_4.2.x86_64.rpm                                             | 3.0 MB     00:00
+(2/36): coreutils-libs-8.4-19.el6_4.2.x86_64.rpm                                        |  47 kB     00:00
+(3/36): curl-7.19.7-37.el6_4.x86_64.rpm                                                 | 193 kB     00:00
+(4/36): dbus-glib-0.86-6.el6_4.x86_64.rpm                                               | 170 kB     00:00
+(5/36): dmidecode-2.11-2.el6_1.x86_64.rpm                                               |  71 kB     00:00
+(6/36): e2fsprogs-1.41.12-14.el6_4.2.x86_64.rpm                                         | 552 kB     00:00
+(7/36): e2fsprogs-libs-1.41.12-14.el6_4.2.x86_64.rpm                                    | 120 kB     00:00
+(8/36): glibc-2.12-1.107.el6_4.2.x86_64.rpm                                             | 3.8 MB     00:01
+(9/36): glibc-common-2.12-1.107.el6_4.2.x86_64.rpm                                      |  14 MB     00:03
+(10/36): gzip-1.3.12-19.el6_4.x86_64.rpm                                                | 116 kB     00:00
+(11/36): initscripts-9.03.38-1.el6_4.1.x86_64.rpm                                       | 937 kB     00:00
+(12/36): iputils-20071127-17.el6_4.x86_64.rpm                                           | 120 kB     00:00
+(13/36): kernel-2.6.32-358.11.1.el6.x86_64.rpm                                          |  26 MB     00:06
+(14/36): kernel-firmware-2.6.32-358.11.1.el6.noarch.rpm                                 |  11 MB     00:02
+(15/36): krb5-libs-1.10.3-10.el6_4.4.x86_64.rpm                                         | 760 kB     00:00
+(16/36): libblkid-2.17.2-12.9.el6_4.3.x86_64.rpm                                        | 114 kB     00:00
+(17/36): libcom_err-1.41.12-14.el6_4.2.x86_64.rpm                                       |  36 kB     00:00
+(18/36): libcurl-7.19.7-37.el6_4.x86_64.rpm                                             | 165 kB     00:00
+(19/36): libnl-1.1.4-1.el6_4.x86_64.rpm                                                 | 121 kB     00:00
+(20/36): libss-1.41.12-14.el6_4.2.x86_64.rpm                                            |  41 kB     00:00
+(21/36): libuuid-2.17.2-12.9.el6_4.3.x86_64.rpm                                         |  67 kB     00:00
+(22/36): libxml2-2.7.6-12.el6_4.1.x86_64.rpm                                            | 799 kB     00:00
+(23/36): libxml2-python-2.7.6-12.el6_4.1.x86_64.rpm                                     | 321 kB     00:00
+(24/36): module-init-tools-3.9-21.el6_4.x86_64.rpm                                      | 463 kB     00:00
+(25/36): mysql-libs-5.1.69-1.el6_4.x86_64.rpm                                           | 1.2 MB     00:00
+(26/36): openldap-2.4.23-32.el6_4.1.x86_64.rpm                                          | 265 kB     00:00
+(27/36): openssl-1.0.0-27.el6_4.2.x86_64.rpm                                            | 1.4 MB     00:00
+(28/36): python-2.6.6-37.el6_4.x86_64.rpm                                               | 4.8 MB     00:01
+(29/36): python-dmidecode-3.10.13-3.el6_4.x86_64.rpm                                    |  80 kB     00:00
+(30/36): python-libs-2.6.6-37.el6_4.x86_64.rpm                                          | 596 kB     00:00
+(31/36): selinux-policy-3.7.19-195.el6_4.12.noarch.rpm                                  | 1.8 MB     00:00
+(32/36): selinux-policy-targeted-3.7.19-195.el6_4.12.noarch.rpm                         | 2.8 MB     00:00
+(33/36): subscription-manager-1.1.23.1-1.el6_4.x86_64.rpm                               | 516 kB     00:00
+(34/36): tzdata-2013c-2.el6.noarch.rpm                                                  | 460 kB     00:00
+(35/36): upstart-0.6.5-12.el6_4.1.x86_64.rpm                                            | 176 kB     00:00
+(36/36): util-linux-ng-2.17.2-12.9.el6_4.3.x86_64.rpm                                   | 1.5 MB     00:00
+---------------------------------------------------------------------------------------------------------------
+Total                                                                          3.0 MB/s |  79 MB     00:25
+Running rpm_check_debug
+Running Transaction Test
+Transaction Test Succeeded
+Running Transaction
+  Updating   : kernel-firmware-2.6.32-358.11.1.el6.noarch                                                 1/71
+  Updating   : tzdata-2013c-2.el6.noarch                                                                  2/71
+  Updating   : glibc-2.12-1.107.el6_4.2.x86_64                                                            3/71
+  Updating   : glibc-common-2.12-1.107.el6_4.2.x86_64                                                     4/71
+  Updating   : coreutils-libs-8.4-19.el6_4.2.x86_64                                                       5/71
+  Updating   : coreutils-8.4-19.el6_4.2.x86_64                                                            6/71
+  Updating   : libcom_err-1.41.12-14.el6_4.2.x86_64                                                       7/71
+  Updating   : krb5-libs-1.10.3-10.el6_4.4.x86_64                                                         8/71
+  Updating   : libuuid-2.17.2-12.9.el6_4.3.x86_64                                                         9/71
+  Updating   : libblkid-2.17.2-12.9.el6_4.3.x86_64                                                       10/71
+  Updating   : openssl-1.0.0-27.el6_4.2.x86_64                                                           11/71
+  Updating   : python-libs-2.6.6-37.el6_4.x86_64                                                         12/71
+  Updating   : python-2.6.6-37.el6_4.x86_64                                                              13/71
+  Updating   : module-init-tools-3.9-21.el6_4.x86_64                                                     14/71
+  Updating   : openldap-2.4.23-32.el6_4.1.x86_64                                                         15/71
+  Updating   : libxml2-2.7.6-12.el6_4.1.x86_64                                                           16/71
+  Updating   : libxml2-python-2.7.6-12.el6_4.1.x86_64                                                    17/71
+  Updating   : python-dmidecode-3.10.13-3.el6_4.x86_64                                                   18/71
+  Updating   : libcurl-7.19.7-37.el6_4.x86_64                                                            19/71
+  Updating   : util-linux-ng-2.17.2-12.9.el6_4.3.x86_64                                                  20/71
+  Updating   : e2fsprogs-libs-1.41.12-14.el6_4.2.x86_64                                                  21/71
+  Updating   : libss-1.41.12-14.el6_4.2.x86_64                                                           22/71
+  Updating   : selinux-policy-3.7.19-195.el6_4.12.noarch                                                 23/71
+  Updating   : upstart-0.6.5-12.el6_4.1.x86_64                                                           24/71
+  Updating   : iputils-20071127-17.el6_4.x86_64                                                          25/71
+  Updating   : initscripts-9.03.38-1.el6_4.1.x86_64                                                      26/71
+  Installing : kernel-2.6.32-358.11.1.el6.x86_64                                                         27/71
+  Updating   : subscription-manager-1.1.23.1-1.el6_4.x86_64                                              28/71
+  Updating   : selinux-policy-targeted-3.7.19-195.el6_4.12.noarch                                        29/71
+  Updating   : e2fsprogs-1.41.12-14.el6_4.2.x86_64                                                       30/71
+  Updating   : curl-7.19.7-37.el6_4.x86_64                                                               31/71
+  Updating   : mysql-libs-5.1.69-1.el6_4.x86_64                                                          32/71
+  Updating   : gzip-1.3.12-19.el6_4.x86_64                                                               33/71
+  Updating   : 1:dmidecode-2.11-2.el6_1.x86_64                                                           34/71
+  Updating   : dbus-glib-0.86-6.el6_4.x86_64                                                             35/71
+  Updating   : libnl-1.1.4-1.el6_4.x86_64                                                                36/71
+  Cleanup    : e2fsprogs-1.41.12-14.el6.x86_64                                                           37/71
+  Cleanup    : curl-7.19.7-35.el6.x86_64                                                                 38/71
+  Cleanup    : selinux-policy-targeted-3.7.19-195.el6.noarch                                             39/71
+  Cleanup    : libcurl-7.19.7-35.el6.x86_64                                                              40/71
+  Cleanup    : mysql-libs-5.1.66-2.el6_3.x86_64                                                          41/71
+  Cleanup    : subscription-manager-1.1.23-1.el6.x86_64                                                  42/71
+  Cleanup    : iputils-20071127-16.el6.x86_64                                                            43/71
+  Cleanup    : initscripts-9.03.38-1.el6.x86_64                                                          44/71
+  Cleanup    : python-dmidecode-3.10.13-1.el6.x86_64                                                     45/71
+  Cleanup    : libxml2-python-2.7.6-8.el6_3.4.x86_64                                                     46/71
+  Cleanup    : python-libs-2.6.6-36.el6.x86_64                                                           47/71
+  Cleanup    : python-2.6.6-36.el6.x86_64                                                                48/71
+  Cleanup    : openssl-1.0.0-27.el6.x86_64                                                               49/71
+  Cleanup    : util-linux-ng-2.17.2-12.9.el6.x86_64                                                      50/71
+  Cleanup    : libblkid-2.17.2-12.9.el6.x86_64                                                           51/71
+  Cleanup    : krb5-libs-1.10.3-10.el6.x86_64                                                            52/71
+  Cleanup    : e2fsprogs-libs-1.41.12-14.el6.x86_64                                                      53/71
+  Cleanup    : libss-1.41.12-14.el6.x86_64                                                               54/71
+  Cleanup    : gzip-1.3.12-18.el6.x86_64                                                                 55/71
+  Cleanup    : selinux-policy-3.7.19-195.el6.noarch                                                      56/71
+  Cleanup    : module-init-tools-3.9-21.el6.x86_64                                                       57/71
+  Cleanup    : coreutils-libs-8.4-19.el6.x86_64                                                          58/71
+  Cleanup    : coreutils-8.4-19.el6.x86_64                                                               59/71
+  Cleanup    : libcom_err-1.41.12-14.el6.x86_64                                                          60/71
+  Cleanup    : libuuid-2.17.2-12.9.el6.x86_64                                                            61/71
+  Cleanup    : libxml2-2.7.6-8.el6_3.4.x86_64                                                            62/71
+  Cleanup    : upstart-0.6.5-12.el6.x86_64                                                               63/71
+  Cleanup    : openldap-2.4.23-31.el6.x86_64                                                             64/71
+  Cleanup    : libnl-1.1-14.el6.x86_64                                                                   65/71
+  Cleanup    : dbus-glib-0.86-5.el6.x86_64                                                               66/71
+  Cleanup    : 1:dmidecode-2.11-2.el6.x86_64                                                             67/71
+  Cleanup    : kernel-firmware-2.6.32-358.el6.noarch                                                     68/71
+  Cleanup    : glibc-common-2.12-1.107.el6.x86_64                                                        69/71
+  Cleanup    : glibc-2.12-1.107.el6.x86_64                                                               70/71
+  Cleanup    : tzdata-2012j-1.el6.noarch                                                                 71/71
+  Verifying  : curl-7.19.7-37.el6_4.x86_64                                                                1/71
+  Verifying  : initscripts-9.03.38-1.el6_4.1.x86_64                                                       2/71
+  Verifying  : python-2.6.6-37.el6_4.x86_64                                                               3/71
+  Verifying  : 1:dmidecode-2.11-2.el6_1.x86_64                                                            4/71
+  Verifying  : e2fsprogs-libs-1.41.12-14.el6_4.2.x86_64                                                   5/71
+  Verifying  : libss-1.41.12-14.el6_4.2.x86_64                                                            6/71
+  Verifying  : coreutils-8.4-19.el6_4.2.x86_64                                                            7/71
+  Verifying  : libblkid-2.17.2-12.9.el6_4.3.x86_64                                                        8/71
+  Verifying  : openssl-1.0.0-27.el6_4.2.x86_64                                                            9/71
+  Verifying  : dbus-glib-0.86-6.el6_4.x86_64                                                             10/71
+  Verifying  : glibc-common-2.12-1.107.el6_4.2.x86_64                                                    11/71
+  Verifying  : python-libs-2.6.6-37.el6_4.x86_64                                                         12/71
+  Verifying  : openldap-2.4.23-32.el6_4.1.x86_64                                                         13/71
+  Verifying  : module-init-tools-3.9-21.el6_4.x86_64                                                     14/71
+  Verifying  : tzdata-2013c-2.el6.noarch                                                                 15/71
+  Verifying  : util-linux-ng-2.17.2-12.9.el6_4.3.x86_64                                                  16/71
+  Verifying  : kernel-2.6.32-358.11.1.el6.x86_64                                                         17/71
+  Verifying  : selinux-policy-3.7.19-195.el6_4.12.noarch                                                 18/71
+  Verifying  : glibc-2.12-1.107.el6_4.2.x86_64                                                           19/71
+  Verifying  : libnl-1.1.4-1.el6_4.x86_64                                                                20/71
+  Verifying  : e2fsprogs-1.41.12-14.el6_4.2.x86_64                                                       21/71
+  Verifying  : libxml2-2.7.6-12.el6_4.1.x86_64                                                           22/71
+  Verifying  : libuuid-2.17.2-12.9.el6_4.3.x86_64                                                        23/71
+  Verifying  : selinux-policy-targeted-3.7.19-195.el6_4.12.noarch                                        24/71
+  Verifying  : krb5-libs-1.10.3-10.el6_4.4.x86_64                                                        25/71
+  Verifying  : subscription-manager-1.1.23.1-1.el6_4.x86_64                                              26/71
+  Verifying  : libcom_err-1.41.12-14.el6_4.2.x86_64                                                      27/71
+  Verifying  : mysql-libs-5.1.69-1.el6_4.x86_64                                                          28/71
+  Verifying  : python-dmidecode-3.10.13-3.el6_4.x86_64                                                   29/71
+  Verifying  : libxml2-python-2.7.6-12.el6_4.1.x86_64                                                    30/71
+  Verifying  : iputils-20071127-17.el6_4.x86_64                                                          31/71
+  Verifying  : gzip-1.3.12-19.el6_4.x86_64                                                               32/71
+  Verifying  : libcurl-7.19.7-37.el6_4.x86_64                                                            33/71
+  Verifying  : kernel-firmware-2.6.32-358.11.1.el6.noarch                                                34/71
+  Verifying  : upstart-0.6.5-12.el6_4.1.x86_64                                                           35/71
+  Verifying  : coreutils-libs-8.4-19.el6_4.2.x86_64                                                      36/71
+  Verifying  : e2fsprogs-1.41.12-14.el6.x86_64                                                           37/71
+  Verifying  : kernel-firmware-2.6.32-358.el6.noarch                                                     38/71
+  Verifying  : coreutils-libs-8.4-19.el6.x86_64                                                          39/71
+  Verifying  : python-2.6.6-36.el6.x86_64                                                                40/71
+  Verifying  : libnl-1.1-14.el6.x86_64                                                                   41/71
+  Verifying  : libblkid-2.17.2-12.9.el6.x86_64                                                           42/71
+  Verifying  : initscripts-9.03.38-1.el6.x86_64                                                          43/71
+  Verifying  : curl-7.19.7-35.el6.x86_64                                                                 44/71
+  Verifying  : python-libs-2.6.6-36.el6.x86_64                                                           45/71
+  Verifying  : python-dmidecode-3.10.13-1.el6.x86_64                                                     46/71
+  Verifying  : libxml2-python-2.7.6-8.el6_3.4.x86_64                                                     47/71
+  Verifying  : selinux-policy-3.7.19-195.el6.noarch                                                      48/71
+  Verifying  : util-linux-ng-2.17.2-12.9.el6.x86_64                                                      49/71
+  Verifying  : upstart-0.6.5-12.el6.x86_64                                                               50/71
+  Verifying  : iputils-20071127-16.el6.x86_64                                                            51/71
+  Verifying  : krb5-libs-1.10.3-10.el6.x86_64                                                            52/71
+  Verifying  : module-init-tools-3.9-21.el6.x86_64                                                       53/71
+  Verifying  : glibc-2.12-1.107.el6.x86_64                                                               54/71
+  Verifying  : openldap-2.4.23-31.el6.x86_64                                                             55/71
+  Verifying  : e2fsprogs-libs-1.41.12-14.el6.x86_64                                                      56/71
+  Verifying  : openssl-1.0.0-27.el6.x86_64                                                               57/71
+  Verifying  : 1:dmidecode-2.11-2.el6.x86_64                                                             58/71
+  Verifying  : mysql-libs-5.1.66-2.el6_3.x86_64                                                          59/71
+  Verifying  : coreutils-8.4-19.el6.x86_64                                                               60/71
+  Verifying  : subscription-manager-1.1.23-1.el6.x86_64                                                  61/71
+  Verifying  : libss-1.41.12-14.el6.x86_64                                                               62/71
+  Verifying  : libcurl-7.19.7-35.el6.x86_64                                                              63/71
+  Verifying  : libcom_err-1.41.12-14.el6.x86_64                                                          64/71
+  Verifying  : gzip-1.3.12-18.el6.x86_64                                                                 65/71
+  Verifying  : glibc-common-2.12-1.107.el6.x86_64                                                        66/71
+  Verifying  : selinux-policy-targeted-3.7.19-195.el6.noarch                                             67/71
+  Verifying  : tzdata-2012j-1.el6.noarch                                                                 68/71
+  Verifying  : libxml2-2.7.6-8.el6_3.4.x86_64                                                            69/71
+  Verifying  : libuuid-2.17.2-12.9.el6.x86_64                                                            70/71
+  Verifying  : dbus-glib-0.86-5.el6.x86_64                                                               71/71
+
+Installed:
+  kernel.x86_64 0:2.6.32-358.11.1.el6
+
+Updated:
+  coreutils.x86_64 0:8.4-19.el6_4.2                         coreutils-libs.x86_64 0:8.4-19.el6_4.2
+  curl.x86_64 0:7.19.7-37.el6_4                             dbus-glib.x86_64 0:0.86-6.el6_4
+  dmidecode.x86_64 1:2.11-2.el6_1                           e2fsprogs.x86_64 0:1.41.12-14.el6_4.2
+  e2fsprogs-libs.x86_64 0:1.41.12-14.el6_4.2                glibc.x86_64 0:2.12-1.107.el6_4.2
+  glibc-common.x86_64 0:2.12-1.107.el6_4.2                  gzip.x86_64 0:1.3.12-19.el6_4
+  initscripts.x86_64 0:9.03.38-1.el6_4.1                    iputils.x86_64 0:20071127-17.el6_4
+  kernel-firmware.noarch 0:2.6.32-358.11.1.el6              krb5-libs.x86_64 0:1.10.3-10.el6_4.4
+  libblkid.x86_64 0:2.17.2-12.9.el6_4.3                     libcom_err.x86_64 0:1.41.12-14.el6_4.2
+  libcurl.x86_64 0:7.19.7-37.el6_4                          libnl.x86_64 0:1.1.4-1.el6_4
+  libss.x86_64 0:1.41.12-14.el6_4.2                         libuuid.x86_64 0:2.17.2-12.9.el6_4.3
+  libxml2.x86_64 0:2.7.6-12.el6_4.1                         libxml2-python.x86_64 0:2.7.6-12.el6_4.1
+  module-init-tools.x86_64 0:3.9-21.el6_4                   mysql-libs.x86_64 0:5.1.69-1.el6_4
+  openldap.x86_64 0:2.4.23-32.el6_4.1                       openssl.x86_64 0:1.0.0-27.el6_4.2
+  python.x86_64 0:2.6.6-37.el6_4                            python-dmidecode.x86_64 0:3.10.13-3.el6_4
+  python-libs.x86_64 0:2.6.6-37.el6_4                       selinux-policy.noarch 0:3.7.19-195.el6_4.12
+  selinux-policy-targeted.noarch 0:3.7.19-195.el6_4.12      subscription-manager.x86_64 0:1.1.23.1-1.el6_4
+  tzdata.noarch 0:2013c-2.el6                               upstart.x86_64 0:0.6.5-12.el6_4.1
+  util-linux-ng.x86_64 0:2.17.2-12.9.el6_4.3
+
+Complete!
+
