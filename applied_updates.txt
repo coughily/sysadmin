@@ -339,3 +339,91 @@ Updated:
 
 Complete!
 
+
+07-18-2013
+Loaded plugins: product-id, rhnplugin, subscription-manager
+This system is not registered to Red Hat Subscription Management. You can use subscription-manager to register.
+This system is receiving updates from RHN Classic or RHN Satellite.
+Setting up Update Process
+Resolving Dependencies
+--> Running transaction check
+---> Package kernel.x86_64 0:2.6.32-358.14.1.el6 will be installed
+---> Package kernel-firmware.noarch 0:2.6.32-358.11.1.el6 will be updated
+---> Package kernel-firmware.noarch 0:2.6.32-358.14.1.el6 will be an update
+---> Package ruby.x86_64 0:1.8.7.352-10.el6_4 will be updated
+---> Package ruby.x86_64 0:1.8.7.352-12.el6_4 will be an update
+---> Package ruby-irb.x86_64 0:1.8.7.352-10.el6_4 will be updated
+---> Package ruby-irb.x86_64 0:1.8.7.352-12.el6_4 will be an update
+---> Package ruby-libs.x86_64 0:1.8.7.352-10.el6_4 will be updated
+---> Package ruby-libs.x86_64 0:1.8.7.352-12.el6_4 will be an update
+---> Package ruby-rdoc.x86_64 0:1.8.7.352-10.el6_4 will be updated
+---> Package ruby-rdoc.x86_64 0:1.8.7.352-12.el6_4 will be an update
+--> Finished Dependency Resolution
+
+Dependencies Resolved
+
+===============================================================================================================
+ Package                   Arch             Version                       Repository                      Size
+===============================================================================================================
+Installing:
+ kernel                    x86_64           2.6.32-358.14.1.el6           rhel-x86_64-server-6            26 M
+Updating:
+ kernel-firmware           noarch           2.6.32-358.14.1.el6           rhel-x86_64-server-6            11 M
+ ruby                      x86_64           1.8.7.352-12.el6_4            rhel-x86_64-server-6           534 k
+ ruby-irb                  x86_64           1.8.7.352-12.el6_4            rhel-x86_64-server-6           313 k
+ ruby-libs                 x86_64           1.8.7.352-12.el6_4            rhel-x86_64-server-6           1.6 M
+ ruby-rdoc                 x86_64           1.8.7.352-12.el6_4            rhel-x86_64-server-6           376 k
+
+Transaction Summary
+===============================================================================================================
+Install       1 Package(s)
+Upgrade       5 Package(s)
+
+Total download size: 40 M
+Is this ok [y/N]: y
+Downloading Packages:
+(1/6): kernel-2.6.32-358.14.1.el6.x86_64.rpm                                            |  26 MB     00:06
+(2/6): kernel-firmware-2.6.32-358.14.1.el6.noarch.rpm                                   |  11 MB     00:03
+(3/6): ruby-1.8.7.352-12.el6_4.x86_64.rpm                                               | 534 kB     00:00
+(4/6): ruby-irb-1.8.7.352-12.el6_4.x86_64.rpm                                           | 313 kB     00:00
+(5/6): ruby-libs-1.8.7.352-12.el6_4.x86_64.rpm                                          | 1.6 MB     00:00
+(6/6): ruby-rdoc-1.8.7.352-12.el6_4.x86_64.rpm                                          | 376 kB     00:00
+---------------------------------------------------------------------------------------------------------------
+Total                                                                          3.4 MB/s |  40 MB     00:11
+Running rpm_check_debug
+Running Transaction Test
+Transaction Test Succeeded
+Running Transaction
+  Updating   : ruby-libs-1.8.7.352-12.el6_4.x86_64                                                        1/11
+  Updating   : ruby-1.8.7.352-12.el6_4.x86_64                                                             2/11
+  Updating   : ruby-irb-1.8.7.352-12.el6_4.x86_64                                                         3/11
+  Updating   : kernel-firmware-2.6.32-358.14.1.el6.noarch                                                 4/11
+  Installing : kernel-2.6.32-358.14.1.el6.x86_64                                                          5/11
+  Updating   : ruby-rdoc-1.8.7.352-12.el6_4.x86_64                                                        6/11
+  Cleanup    : ruby-rdoc-1.8.7.352-10.el6_4.x86_64                                                        7/11
+  Cleanup    : ruby-irb-1.8.7.352-10.el6_4.x86_64                                                         8/11
+  Cleanup    : kernel-firmware-2.6.32-358.11.1.el6.noarch                                                 9/11
+  Cleanup    : ruby-1.8.7.352-10.el6_4.x86_64                                                            10/11
+  Cleanup    : ruby-libs-1.8.7.352-10.el6_4.x86_64                                                       11/11
+  Verifying  : ruby-1.8.7.352-12.el6_4.x86_64                                                             1/11
+  Verifying  : kernel-firmware-2.6.32-358.14.1.el6.noarch                                                 2/11
+  Verifying  : ruby-irb-1.8.7.352-12.el6_4.x86_64                                                         3/11
+  Verifying  : kernel-2.6.32-358.14.1.el6.x86_64                                                          4/11
+  Verifying  : ruby-libs-1.8.7.352-12.el6_4.x86_64                                                        5/11
+  Verifying  : ruby-rdoc-1.8.7.352-12.el6_4.x86_64                                                        6/11
+  Verifying  : ruby-libs-1.8.7.352-10.el6_4.x86_64                                                        7/11
+  Verifying  : ruby-rdoc-1.8.7.352-10.el6_4.x86_64                                                        8/11
+  Verifying  : ruby-irb-1.8.7.352-10.el6_4.x86_64                                                         9/11
+  Verifying  : kernel-firmware-2.6.32-358.11.1.el6.noarch                                                10/11
+  Verifying  : ruby-1.8.7.352-10.el6_4.x86_64                                                            11/11
+
+Installed:
+  kernel.x86_64 0:2.6.32-358.14.1.el6
+
+Updated:
+  kernel-firmware.noarch 0:2.6.32-358.14.1.el6              ruby.x86_64 0:1.8.7.352-12.el6_4
+  ruby-irb.x86_64 0:1.8.7.352-12.el6_4                      ruby-libs.x86_64 0:1.8.7.352-12.el6_4
+  ruby-rdoc.x86_64 0:1.8.7.352-12.el6_4
+
+Complete!
+
